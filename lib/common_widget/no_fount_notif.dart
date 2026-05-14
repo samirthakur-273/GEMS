@@ -1,0 +1,118 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:gems_revamp/common_widget/colors_widget.dart';
+import 'package:gems_revamp/common_widget/font_size.dart';
+import 'package:gems_revamp/eshop_module_new/common_widget/text_widget.dart';
+import 'package:gems_revamp/utils/constants_files/imageconstants.dart';
+
+class NoResultFoundNotification extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: PreferredSize(
+          preferredSize: Size.fromHeight(70.0),
+          child: AppBar(
+            elevation: 0,
+            flexibleSpace: Container(
+              decoration: BoxDecoration(gradient: gradient_theme_color),
+              // height: 90,
+              alignment: Alignment.center,
+            ),
+            leading: GestureDetector(
+              onTap: () {
+                Navigator.pop(context, true);
+
+              },
+              child: Container(
+                margin: EdgeInsets.all(8),
+                height: 40,
+                width: 40,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8),
+                  color: Colors.blue[400],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 10.0),
+                  child: Container(
+                    child: Icon(
+                      Icons.arrow_back_ios,
+                      size: 22,
+                      color: white_text_color,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            title: TextWidget(
+              text: "Notifications",
+              size: text_font_medium18_size,
+              weight: FontWeight.w500,
+            ),
+            centerTitle: true,
+            ),
+        ),
+        
+      body: Container(
+        alignment: Alignment.center,
+        margin: EdgeInsets.symmetric(horizontal: 20),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            SvgPicture.asset(ImageConstants.noResultFound),
+            SizedBox(
+              height: 30,
+            ),
+            TextWidget(
+              text: "Sorry! No result found",
+              size: text_font_large20_size,
+              weight: FontWeight.bold,
+              alignment: TextAlign.center,
+            ),
+              SizedBox(height: 20,),
+          TextWidget(
+            text:
+                "Please try another way as we were unable to find what you were looking for.",
+            size: text_font_medium16_size,
+            alignment: TextAlign.center,
+            color: black_color,
+          ),
+            
+            SizedBox(
+              height: 50,
+            ),
+            // Container(
+            //   decoration: BoxDecoration(
+            //       borderRadius: BorderRadius.circular(12),
+            //       gradient: const LinearGradient(
+            //         begin: Alignment.topRight,
+            //         end: Alignment.bottomLeft,
+            //         colors: [
+            //           bluishgradient,
+            //           blue_color,
+            //         ],
+            //       )),
+            //   width: MediaQuery.of(context).size.width / 1.2,
+            //   height: 50,
+              // child: TextButton(
+              //   child: TextWidget(
+              //     text: "Try Again",
+              //     color: white_text_color,
+              //     size: 20,
+              //   ),
+              //   onPressed: () async {
+              //     Internetconnectivity().isConnected().then((result) {
+              //       if (result) {
+              //         Navigator.pop(context, "1");
+              //       }
+              //     });
+              //   },
+              // ),
+            // ),
+            SizedBox(height: 50,)
+          ],
+        ),
+      ),
+    );
+  }
+}

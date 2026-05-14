@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523970910712",
+    "firebase_url": "https://gems-rewards-13a8c.firebaseio.com",
+    "project_id": "gems-rewards-13a8c",
+    "storage_bucket": "gems-rewards-13a8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523970910712:android:4a084616745761e4e75e0d",
+        "android_client_info": {
+          "package_name": "com.clubclass.gemsrewards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523970910712-utq4utm8l0br8fkc1d7o0oa5bsh8056u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWMTGRU2_kvcHRjgd-LQR1_2csQcgPwpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523970910712-utq4utm8l0br8fkc1d7o0oa5bsh8056u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "523970910712-capsug30b20pusacmh23rl70ucro7l66.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.theentertainerme.gemrewards",
+                "app_store_id": "1287373984"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.968" height="18.686" viewBox="0 0 16.968 18.686">
+    <g data-name="Property 1=Notification, Property 2=Filled">
+        <path d="M12.89 5.156a5.156 5.156 0 0 0-10.312 0C2.578 11.171 0 12.89 0 12.89h15.468s-2.578-1.719-2.578-7.734z" style="fill:#ef5313;stroke:#ef5313;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" transform="translate(.75 .75)"/>
+        <path data-name="Vector" d="M5.156 0a3.254 3.254 0 0 1-1.09 1.258 2.675 2.675 0 0 1-1.488.46 2.675 2.675 0 0 1-1.488-.46A3.254 3.254 0 0 1 0 0M5.156 0H0" transform="translate(5.906 16.218)" style="fill:#ef5313;stroke:#ef5313;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+    </g>
+</svg>

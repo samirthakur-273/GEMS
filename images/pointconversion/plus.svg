@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <g data-name="Group 19390">
+        <g data-name="Group 19389">
+            <g data-name="Property 1=Plus">
+                <path d="M0 0v14" transform="translate(17 10)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;stroke:#4cd080;fill:none"/>
+                <path data-name="Vector" d="M0 0h14" transform="translate(10 17)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;stroke:#4cd080;fill:none"/>
+            </g>
+            <g style="stroke-miterlimit:10;stroke:#4cd080;fill:none">
+                <circle cx="17" cy="17" r="17" style="stroke:none"/>
+                <circle cx="17" cy="17" r="16.5" style="fill:none"/>
+            </g>
+        </g>
+    </g>
+</svg>

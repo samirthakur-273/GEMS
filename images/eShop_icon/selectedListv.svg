@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.986" height="29.986" viewBox="0 0 29.986 29.986">
+    <defs>
+        <linearGradient id="49qeqv9rla" x1=".169" y1=".144" x2=".842" y2=".801" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00a3e0"/>
+            <stop offset="1" stop-color="#6c5ca7"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 20015" transform="translate(-241.027 -139.517)">
+        <rect data-name="Rectangle 3545" width="29.986" height="29.986" rx="14.993" transform="translate(241.027 139.517)" style="fill:url(#49qeqv9rla)"/>
+        <g data-name="Group 19514">
+            <g data-name="Group 19513">
+                <g data-name="Group 10191" transform="translate(249.59 149.096)">
+                    <rect data-name="Rectangle 2476" width="2.707" height="2.707" rx="1.354" style="fill:#fff"/>
+                    <rect data-name="Rectangle 2483" width="8.122" height="1.354" rx=".677" transform="translate(4.738 .677)" style="fill:#fff"/>
+                    <rect data-name="Rectangle 2477" width="2.707" height="2.707" rx="1.354" transform="translate(0 4.061)" style="fill:#fff"/>
+                    <rect data-name="Rectangle 3455" width="2.707" height="2.707" rx="1.354" transform="translate(0 8.122)" style="fill:#fff"/>
+                    <rect data-name="Rectangle 2482" width="8.122" height="1.354" rx=".677" transform="translate(4.738 4.738)" style="fill:#fff"/>
+                    <rect data-name="Rectangle 3456" width="8.122" height="1.354" rx=".677" transform="translate(4.738 8.799)" style="fill:#fff"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
